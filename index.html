@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock, paper and scissors</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/style/index.css" />
+  </head>
+
+  <body>
+    <header class="title" aria-labelledby="title__text">
+      <h1 id="title__text" aria-label="">Let's play Rock, Paper and Scissors</h1>
+    </header>
+    <main class="app">
+      <article class="get-name" id="get-name">
+        <label class="get-name__label" for="get-name__name">Write your name</label>
+        <input class="get-name__name" id="get-name__name" type="text" />
+      </article>
+      <article class="game" id="game">
+        <section class="player">
+          <h2 class="player__name" id="player__name">Name</h2>
+          <label class="player__label" id="player__label" for="player__weapon">Select your weapon</label>
+          <select class="player__weapon" name="weapon" id="player__weapon" aria-labelledby="player__name player__label">
+            <option value="Rock">Rock</option>
+            <option value="Paper">Paper</option>
+            <option value="Scissors">Scissors</option>
+          </select>
+        </section>
+        <section class="identifier">
+          <h2 id="identifier__text" tabindex="-1" aria-label="">VS</h2>
+        </section>
+        <section class="computer">
+          <h2 class="computer__name" id="computer__name">Computer</h2>
+          <h3 class="computer__weapon" id="computer__weapon">??</h3>
+        </section>
+      </article>
+      <section class="button-wrapper">
+        <button class="button-wrapper__button" type="button" id="button">Play</button>
+      </section>
+      <section class="error" id="error" tabindex="0">
+        <p>Please write your name to play</p>
+      </section>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>

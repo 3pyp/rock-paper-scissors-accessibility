@@ -1,0 +1,15 @@
+.button-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.button-wrapper__button {
+  padding: 10px 40px;
+  cursor: pointer;
+  margin: 20px;
+  color: var(--white);
+  border-radius: 7px;
+  background-color: var(--red);
+}
+.button-wrapper__button:hover {
+  background-color: var(--dark-red);
+}
