@@ -1,5 +1,5 @@
 .game {
-  display: none;
+  display: flex;
   justify-content: space-evenly;
 }
 .player,
@@ -13,12 +13,12 @@
   -moz-appearance: none;
   -webkit-appearance: none;
   appearance: none;
-  background: var(--main-bg-color) url('/arrow-drop-down.svg') right 0% top 50%/24px 24px no-repeat;
+  background: var(--main-bg-color) url('../arrow-drop-down.svg') right 0% top 50%/24px 24px no-repeat;
   border: 0;
   border-bottom: 1px solid var(--black);
   border-radius: 0;
   cursor: pointer;
-  font-size: 16px;
+  font-size: 1.2rem;
   line-height: normal;
   min-width: 120px;
 }
@@ -29,5 +29,7 @@
 .error {
   text-align: center;
   color: var(--red);
+}
+.hidden {
   display: none;
 }

@@ -6,7 +6,7 @@
 
 .get-name__label {
   margin: 20px 0;
-  font-size: 24px;
+  font-size: 2rem;
 }
 .get-name__name {
   width: 250px;
@@ -15,5 +15,5 @@
   border-radius: 7px;
   box-shadow: none;
   text-align: center;
-  font-size: 16px;
+  font-size: 1.2rem;
 }
