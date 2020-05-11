@@ -1,0 +1,54 @@
+:root {
+  --main-bg-color: #99e1d9;
+  --black: #191716;
+  --white: #fefeff;
+  --red: #ef6461;
+  --dark-red: #b84a49;
+}
+html,
+body,
+p,
+ol,
+ul,
+li,
+dl,
+dt,
+dd,
+blockquote,
+figure,
+fieldset,
+legend,
+textarea,
+pre,
+iframe,
+hr,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+ }
+ 
+ *,
+ *::before,
+ *::after {
+  box-sizing: inherit;
+ }
+
+body {
+  background-color: var(--main-bg-color);
+  color: var(--black);
+  font-family: "Roboto Mono", monospace;
+}
+
+.app {
+  margin: 40px 0;
+}
